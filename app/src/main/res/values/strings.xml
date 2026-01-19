@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PhishGuard</string>
+    <string name="enter_sms_text">Şüpheli SMS metnini girin:</string>
+    <string name="analyze_button">Analiz Et</string>
+    <string name="result_text">Sonuç burada görünecek</string>
+    <string name="safe_message">Bu mesaj güvenli görünüyor</string>
+    <string name="phishing_message">Bu mesaj şüpheli! Dolandırıcılık olabilir</string>
+</resources>
