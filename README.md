@@ -1,27 +1,19 @@
-# 🛡️ PhishGuard: AI-Driven Phishing Detector
+# 🛡️ PhishGuard: SMS Phishing Detection App
 
-**PhishGuard**, mobil cihazlara gelen SMS ve metinleri analiz ederek, potansiyel "Sosyal Mühendislik" (Social Engineering) ve Phishing (Oltalama) saldırılarını tespit eden bir Android güvenlik uygulamasıdır.
+**PhishGuard** is an Android application designed to detect and prevent social engineering attacks delivered via SMS (Smishing).
 
-## 🧠 Projenin Amacı ve Psikolojik Altyapı
-Siber saldırıların %90'ı insan hatasından kaynaklanır. Bu proje, sadece zararlı linkleri değil, saldırganların kullandığı **psikolojik manipülasyon tekniklerini** (Aciliyet hissi, korku, otorite baskısı) analiz etmeyi hedefler. 
+## 🎯 Project Objective
+Social engineering attacks exploit human psychology (urgency, fear, curiosity) rather than system vulnerabilities. PhishGuard acts as a "digital safety mechanism," analyzing incoming message patterns to identify potential phishing attempts before the user falls victim.
 
-*Örnek: "Hemen tıklamazsan hesabın kapanacak" mesajındaki aciliyet vurgusunu tespit eder.*
+## 🚀 Key Features
+- **Keyword Analysis Algorithm:** Scans messages for high-risk triggers (e.g., "Urgent," "Account Suspended," "Click Here").
+- **Risk Scoring System:** Calculates a threat score based on the frequency and context of suspicious keywords.
+- **User Education:** Explains *why* a message is flagged, increasing the user's cybersecurity awareness.
 
-## 🚀 Özellikler (v1.0)
-- **Metin Analizi:** Şüpheli anahtar kelimeleri ve manipülatif dil kalıplarını tarar.
-- **Güvenlik Skoru:** Kullanıcıya mesajın güvenilirliği hakkında anlık geri bildirim verir.
-- **Kullanıcı Dostu Arayüz:** Karmaşık güvenlik terimleri yerine anlaşılır uyarılar.
-
-## 🛠️ Teknolojiler
-- **Dil:** Java (Native Android Development)
-- **Arayüz:** XML
-- **Mimari:** MVC Pattern
-- **Geliştirme Ortamı:** Cursor AI & Android Studio
-
-## 🔮 Gelecek Hedefleri (Roadmap)
-- [ ] NLP (Doğal Dil İşleme) modelleri entegre edilerek duygu analizi yapılması.
-- [ ] Görüntü işleme (OCR) ile ekran görüntüsünden analiz yapabilme.
-- [ ] Siber güvenlik veritabanları ile API entegrasyonu.
+## 🛠️ Tech Stack
+- **Language:** Java
+- **Platform:** Android SDK
+- **Architecture:** Rule-Based Detection Logic
 
 ---
-*Bu proje, Siber Güvenlik ve İnsan Psikolojisi alanındaki ilgimi yazılım geliştirme becerilerimle birleştirmek amacıyla geliştirilmektedir.*
+*Developed to explore mobile security and human-centric cybersecurity solutions.*
